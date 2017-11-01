@@ -1,6 +1,6 @@
 # Protocol-Demo
 
-Visit More tutorials : iosdevcenters.blogspot.com
+Visit More tutorials : http://iosdevcenters.blogspot.com
 
 Pop the data from One to another ViewConrtoller using protocol.
 
