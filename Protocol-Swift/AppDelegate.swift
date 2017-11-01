@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Protocol-Swift
-//
-//  Created by Nimblechapps on 08/09/17.
-//  Copyright © 2017 iosDevCenters. All rights reserved.
-//
 
 import UIKit
 

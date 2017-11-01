@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		682531D41F62453D00B76250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682531D31F62453D00B76250 /* AppDelegate.swift */; };
-		682531D61F62453D00B76250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682531D51F62453D00B76250 /* ViewController.swift */; };
 		682531D91F62453D00B76250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682531D71F62453D00B76250 /* Main.storyboard */; };
 		682531DB1F62453D00B76250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682531DA1F62453D00B76250 /* Assets.xcassets */; };
 		682531DE1F62453D00B76250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682531DC1F62453D00B76250 /* LaunchScreen.storyboard */; };
 		682531E91F62453D00B76250 /* Protocol_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682531E81F62453D00B76250 /* Protocol_SwiftTests.swift */; };
 		682531F41F62453D00B76250 /* Protocol_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682531F31F62453D00B76250 /* Protocol_SwiftUITests.swift */; };
+		682532021F6247F500B76250 /* ViewController_A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682532011F6247F500B76250 /* ViewController_A.swift */; };
+		682532041F6247FF00B76250 /* ViewController_B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682532031F6247FF00B76250 /* ViewController_B.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		682531D01F62453D00B76250 /* Protocol-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protocol-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682531D31F62453D00B76250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		682531D51F62453D00B76250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		682531D81F62453D00B76250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		682531DA1F62453D00B76250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		682531DD1F62453D00B76250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		682531EF1F62453D00B76250 /* Protocol-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocol-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682531F31F62453D00B76250 /* Protocol_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_SwiftUITests.swift; sourceTree = "<group>"; };
 		682531F51F62453D00B76250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682532011F6247F500B76250 /* ViewController_A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_A.swift; sourceTree = "<group>"; };
+		682532031F6247FF00B76250 /* ViewController_B.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_B.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				682531D31F62453D00B76250 /* AppDelegate.swift */,
-				682531D51F62453D00B76250 /* ViewController.swift */,
 				682531D71F62453D00B76250 /* Main.storyboard */,
 				682531DA1F62453D00B76250 /* Assets.xcassets */,
 				682531DC1F62453D00B76250 /* LaunchScreen.storyboard */,
 				682531DF1F62453D00B76250 /* Info.plist */,
+				682532011F6247F500B76250 /* ViewController_A.swift */,
+				682532031F6247FF00B76250 /* ViewController_B.swift */,
 			);
 			path = "Protocol-Swift";
 			sourceTree = "<group>";
@@ -193,6 +196,8 @@
 				TargetAttributes = {
 					682531CF1F62453D00B76250 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 69239AZER7;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					682531E31F62453D00B76250 = {
@@ -259,7 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682531D61F62453D00B76250 /* ViewController.swift in Sources */,
+				682532041F6247FF00B76250 /* ViewController_B.swift in Sources */,
+				682532021F6247F500B76250 /* ViewController_A.swift in Sources */,
 				682531D41F62453D00B76250 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,11 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69239AZER7;
 				INFOPLIST_FILE = "Protocol-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iosDevCenters.Protocol-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -426,11 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69239AZER7;
 				INFOPLIST_FILE = "Protocol-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iosDevCenters.Protocol-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -507,6 +517,7 @@
 				682531FA1F62453D00B76250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		682531FB1F62453D00B76250 /* Build configuration list for PBXNativeTarget "Protocol-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +526,7 @@
 				682531FD1F62453D00B76250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		682531FE1F62453D00B76250 /* Build configuration list for PBXNativeTarget "Protocol-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +535,7 @@
 				682532001F62453D00B76250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
